@@ -1,9 +1,9 @@
 ---
 ---
 
-# JoannaAch's Website
+# 3D Epigenome in Cancer Group at the Garvan Institute of Medical Research, Sydney, Australia
 
-An engaging 1-3 sentence description of your lab.
+The focus of the 3D Epigenome in Cancer group is to understand how the three-dimensional (3D) organization of DNA inside the nucleus relates to gene deregulation in cancer, including its cell-to-cell and temporal variability.
 
 {% include section.html %}
 
@@ -11,7 +11,7 @@ An engaging 1-3 sentence description of your lab.
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Most recent publications:
 
 {%
   include button.html
@@ -26,7 +26,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/photo3.jpg"
   link="research"
   title="Our Research"
   text=text
@@ -34,7 +34,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Projects:
 
 {%
   include button.html
@@ -49,7 +49,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/photo2.jpg"
   link="projects"
   title="Our Projects"
   flip=true
@@ -59,8 +59,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
+Team
 {%
   include button.html
   link="team"
@@ -74,7 +73,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/logo.jpg"
   link="team"
   title="Our Team"
   text=text
