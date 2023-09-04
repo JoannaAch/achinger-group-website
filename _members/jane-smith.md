@@ -1,19 +1,14 @@
 ---
-name: Jane Smith
+name: Joanna Achinger-Kawecka
 image: images/photo.jpg
-role: pi
+role: Group Leader
 aliases:
-  - J. Smith
-  - J Smith
+  - J. Achinger-Kawecka
+  - J Achinger-Kawecka
 links:
-  home-page: https://janesmith.com
-  orcid: 0000-0001-8713-9213
+  orcid: 0000-0002-2902-9371
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Faucibus purus in massa tempor nec feugiat nisl pretium fusce.
-Elit at imperdiet dui accumsan.
-Duis tristique sollicitudin nibh sit amet commodo nulla facilisi.
-Vitae elementum curabitur vitae nunc sed velit dignissim sodales.
-Lacinia at quis risus sed vulputate odio ut.
-Magna eget est lorem ipsum.
+Dr Joanna Achinger-Kawecka is a Group Leader of the 3D Epigenome in Cancer group at the Garvan Institute of Medical Research and Conjoint Lecturer at St Vincent's Clinical School, UNSW Sydney. Joanna completed her PhD in 2014 at the University of Tuebingen, Germany, investigating microRNA signatures as predictive biomarkers for breast cancer treatment outcome.
+
+Following her PhD, Joanna joined the Epigenetics Research laboratory of Prof Susan Clark at the Garvan Institute, where she established cutting-edge experimental and computational approaches to study the 3D genome organization. She has been awarded competitive research funding from CCNSW, NBCF and UNSW and established her own research group in 2023.
