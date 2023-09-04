@@ -1,18 +1,17 @@
 # site properties and page defaults
-title: JoannaAch
-subtitle: 
-description: An engaging 1-3 sentence description of your lab.
+title: 3D Epigenome in Cancer Group
+subtitle: Epigenetics Research Laboratory, Garvan Institute of Medical Research
+description: The focus of the group is to understand how the three-dimensional (3D) organization of DNA inside the nucleus relates to gene deregulation in cancer, including its cell-to-cell and temporal variability.
 header: images/background.jpg
 footer: images/background.jpg
 
 # site social media and other links
 links:
-  email: contact@JoannaAch.com
-  orcid: 0000-0001-8713-9213
+  email: j.achinger(at)garvan.org.au
+  orcid: 0000-0002-2902-9371
   google-scholar: ETJoidYAAAAJ
   github: JoannaAch
-  twitter: JoannaAch
-  youtube: JoannaAch
+  twitter: aachinger
 
 ### jekyll settings
 
