@@ -1,82 +1,336 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1093/nar/gkad289
-  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
-    and user-created collections of genes'
+- id: doi:10.1126/sciadv.abp8314
+  title: Memory of stochastic single-cell apoptotic signaling promotes chemoresistance
+    in neuroblastoma
   authors:
-  - Ricardo Avila
-  - Vincent Rubinetti
-  - Xinghua Zhou
-  - Dongbo Hu
-  - Zhongchao Qian
-  - Marco Alvarado Cano
-  - Everaldo Rodolpho
-  - Ginger Tsueng
-  - Casey Greene
-  - Chunlei Wu
-  publisher: Nucleic Acids Research
-  date: '2023-04-18'
-  link: https://doi.org/gr5hb5
-  orcid: 0000-0002-4655-3773
+  - Jordan F. Hastings
+  - Sharissa L. Latham
+  - Alvin Kamili
+  - Madeleine S. Wheatley
+  - "Jeremy Z.\_R. Han"
+  - Marie Wong-Erasmus
+  - Monica Phimmachanh
+  - Max Nobis
+  - Chiara Pantarelli
+  - Antonia L. Cadell
+  - "Yolande E.\_I. O\u2019Donnell"
+  - King Ho Leong
+  - Sophie Lynn
+  - Fan-Suo Geng
+  - Lujing Cui
+  - Sabrina Yan
+  - Joanna Achinger-Kawecka
+  - Clare Stirzaker
+  - Murray D. Norris
+  - Michelle Haber
+  - Toby N. Trahair
+  - Frank Speleman
+  - Katleen De Preter
+  - Mark J. Cowley
+  - Ozren Bogdanovic
+  - Paul Timpson
+  - Thomas R. Cox
+  - Walter Kolch
+  - Jamie I. Fletcher
+  - Dirk Fey
+  - David R. Croucher
+  publisher: Science Advances
+  date: '2023-03-03'
+  link: https://doi.org/grvvhz
+  orcid: 0000-0002-2902-9371
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
+- id: doi:10.3390/cancers14030474
+  title: Epigenetic Therapies and Biomarkers in Breast Cancer
   authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
+  - Lauren Julia Brown
+  - Joanna Achinger-Kawecka
+  - Neil Portman
+  - Susan Clark
+  - Clare Stirzaker
+  - Elgene Lim
+  publisher: Cancers
+  date: '2022-01-18'
+  link: https://doi.org/gsn47p
+  orcid: 0000-0002-2902-9371
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.celrep.2021.109722
+  title: DNA methylation is required to maintain both DNA replication timing precision
+    and 3D genome organization integrity
+  authors:
+  - Qian Du
+  - Grady C. Smith
+  - Phuc Loi Luu
+  - James M. Ferguson
+  - Nicola J. Armstrong
+  - C. Elizabeth Caldon
+  - Elyssa M. Campbell
+  - Shalima S. Nair
+  - Elena Zotenko
+  - Cathryn M. Gould
+  - Michael Buckley
+  - Kee-Ming Chia
+  - Neil Portman
+  - Elgene Lim
+  - Dominik Kaczorowski
+  - Chia-Ling Chan
+  - Kirston Barton
+  - Ira W. Deveson
+  - Martin A. Smith
+  - Joseph E. Powell
+  - Ksenia Skvortsova
+  - Clare Stirzaker
+  - Joanna Achinger-Kawecka
+  - Susan J. Clark
+  publisher: Cell Reports
+  date: '2021-09-01'
+  link: https://doi.org/gmv244
+  orcid: 0000-0002-2902-9371
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2021.06.21.449340
+  title: Epigenetic therapy targets the 3D epigenome in endocrine-resistant breast
+    cancer
+  authors:
+  - Joanna Achinger-Kawecka
+  - Clare Stirzaker
+  - Neil Portman
+  - Elyssa Campbell
+  - Kee-Ming Chia
+  - Qian Du
+  - Geraldine Laven-Law
+  - Shalima S. Nair
+  - Aliza Yong
+  - Ashleigh Wilkinson
+  - Samuel Clifton
+  - Heloise H. Milioli
+  - Sarah Alexandrou
+  - C. Elizabeth Caldon
+  - Jenny Song
+  - Amanda Khoury
+  - Braydon Meyer
+  - Julia M.W. Gee
+  - Anthony Schmitt
+  - Emily S. Wong
+  - Theresa E. Hickey
+  - Elgene Lim
+  - Susan J. Clark
   publisher: Cold Spring Harbor Laboratory
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-4655-3773
+  date: '2021-06-22'
+  link: https://doi.org/gsn47r
+  orcid: 0000-0002-2902-9371
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/gigascience/giad047
-  title: Hetnet connectivity search provides rapid insights into how biomedical entities
-    are related
+- id: doi:10.1186/s13148-021-01023-7
+  title: BRG1 knockdown inhibits proliferation through multiple cellular pathways
+    in prostate cancer
   authors:
-  - Daniel S Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N Nicholson
-  - Yun Hao
-  - Blair D Sullivan
-  - Michael W Nagle
-  - Casey S Greene
-  publisher: GigaScience
-  date: '2022-12-28'
-  link: https://doi.org/gsd85n
-  orcid: 0000-0002-4655-3773
+  - Katherine A. Giles
+  - Cathryn M. Gould
+  - Joanna Achinger-Kawecka
+  - Scott G. Page
+  - Georgia R. Kafer
+  - Samuel Rogers
+  - Phuc-Loi Luu
+  - Anthony J. Cesare
+  - Susan J. Clark
+  - Phillippa C. Taberlay
+  publisher: Clinical Epigenetics
+  date: '2021-02-17'
+  link: https://doi.org/gsn47s
+  orcid: 0000-0002-2902-9371
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1186/s13059-020-02021-3
-  title: Compressing gene expression data using multiple latent space dimensionalities
-    learns complementary biological representations
+- id: doi:10.1038/s41467-019-14098-x
+  title: Epigenetic reprogramming at estrogen-receptor binding sites alters 3D chromatin
+    landscape in endocrine-resistant breast cancer
   authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Genome Biology
-  date: '2020-05-11'
-  link: https://doi.org/gg2mjh
-  orcid: 0000-0002-4655-3773
+  - Joanna Achinger-Kawecka
+  - Fatima Valdes-Mora
+  - Phuc-Loi Luu
+  - Katherine A. Giles
+  - C. Elizabeth Caldon
+  - Wenjia Qu
+  - Shalima Nair
+  - Sebastian Soto
+  - Warwick J. Locke
+  - Nicole S. Yeo-Teh
+  - Cathryn M. Gould
+  - Qian Du
+  - Grady C. Smith
+  - Irene R. Ramos
+  - Kristine F. Fernandez
+  - Dave S. Hoon
+  - Julia M. W. Gee
+  - Clare Stirzaker
+  - Susan J. Clark
+  publisher: Nature Communications
+  date: '2020-01-16'
+  link: https://doi.org/gsn47t
+  orcid: 0000-0002-2902-9371
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41467-019-13753-7
+  title: Constitutively bound CTCF sites maintain 3D chromatin architecture and long-range
+    epigenetically regulated domains
+  authors:
+  - Amanda Khoury
+  - Joanna Achinger-Kawecka
+  - Saul A. Bert
+  - Grady C. Smith
+  - Hugh J. French
+  - Phuc-Loi Luu
+  - Timothy J. Peters
+  - Qian Du
+  - Aled J. Parry
+  - Fatima Valdes-Mora
+  - Phillippa C. Taberlay
+  - Clare Stirzaker
+  - Aaron L. Statham
+  - Susan J. Clark
+  publisher: Nature Communications
+  date: '2020-01-07'
+  link: https://doi.org/ggxgnt
+  orcid: 0000-0002-2902-9371
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1530/oncolabs.1.p049
+  title: DNA demethylation agents as a therapeutic approach in endocrine-resistant
+    breast cancer
+  authors:
+  - Clare Stirzaker
+  - Kee Ming Chia
+  - Neil Portman
+  - Heloisa Helena Milioli
+  - Samuel Clifton
+  - Joanna Achinger-Kawecka
+  - Shalima Nair
+  - Elgene Lim
+  - Susan J Clark
+  publisher: Oncology Abstracts
+  date: '2019-09-26'
+  link: https://doi.org/gsn47w
+  orcid: 0000-0002-2902-9371
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1186/s13072-019-0258-9
+  title: Integrated epigenomic analysis stratifies chromatin remodellers into distinct
+    functional groups
+  authors:
+  - Katherine A. Giles
+  - Cathryn M. Gould
+  - Qian Du
+  - Ksenia Skvortsova
+  - Jenny Z. Song
+  - Madhavi P. Maddugoda
+  - Joanna Achinger-Kawecka
+  - Clare Stirzaker
+  - Susan J. Clark
+  - Phillippa C. Taberlay
+  publisher: Epigenetics &amp; Chromatin
+  date: '2019-02-12'
+  link: https://doi.org/gsn47x
+  orcid: 0000-0002-2902-9371
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1177/1533033818765209
+  title: The Assessment of Clinical Usage and Prognostic Value of YKL-40 Serum Levels
+    in Patients With Rectal Cancer Without Distant Metastasis
+  authors:
+  - Malgorzata Fuksiewicz
+  - Beata Kotowicz
+  - Andrzej Rutkowski
+  - Joanna Achinger-Kawecka
+  - Michal Wagrodzki
+  - Maria M. Kowalska
+  publisher: Technology in Cancer Research &amp; Treatment
+  date: '2018-01-01'
+  link: https://doi.org/gsn47z
+  orcid: 0000-0002-2902-9371
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2217/epi-2016-0111
+  title: Disruption of the 3D cancer genome blueprint
+  authors:
+  - Joanna Achinger-Kawecka
+  - Susan J Clark
+  publisher: Epigenomics
+  date: '2017-01-01'
+  link: https://doi.org/gsn472
+  orcid: 0000-0002-2902-9371
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/sqb.2016.81.031013
+  title: Alterations in Three-Dimensional Organization of the Cancer Genome and Epigenome
+  authors:
+  - Joanna Achinger-Kawecka
+  - Phillippa C. Taberlay
+  - Susan J. Clark
+  publisher: Cold Spring Harbor Symposia on Quantitative Biology
+  date: '2016-01-01'
+  link: https://doi.org/f93ntm
+  orcid: 0000-0002-2902-9371
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/gr.201517.115
+  title: Three-dimensional disorganization of the cancer genome occurs coincident
+    with long-range genetic and epigenetic alterations
+  authors:
+  - Phillippa C. Taberlay
+  - Joanna Achinger-Kawecka
+  - Aaron T.L. Lun
+  - Fabian A. Buske
+  - Kenneth Sabir
+  - Cathryn M. Gould
+  - Elena Zotenko
+  - Saul A. Bert
+  - Katherine A. Giles
+  - Denis C. Bauer
+  - Gordon K. Smyth
+  - Clare Stirzaker
+  - Sean I. O'Donoghue
+  - Susan J. Clark
+  publisher: Genome Research
+  date: '2016-04-06'
+  link: https://doi.org/f8p9b5
+  orcid: 0000-0002-2902-9371
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1158/1538-7445.am2013-1938
+  title: 'Abstract 1938: Increased miR-126 and miR-375 expression in primary ER-positive
+    breast cancer predict longer relapse-free time following treatment with tamoxifen.'
+  authors:
+  - Reiner Hoppe
+  - Joanna Achinger-Kawecka
+  - Stefan Winter
+  - Peter Fritz
+  - Wing-Yee Lo
+  - Werner Schroth
+  - Hiltrud Brauch
+  publisher: Cancer Research
+  date: '2013-04-01'
+  link: https://doi.org/gsn474
+  orcid: 0000-0002-2902-9371
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.ejca.2013.07.145
+  title: Increased expression of miR-126 and miR-10a predict prolonged relapse-free
+    time of primary oestrogen receptor-positive breast cancer following tamoxifen
+    treatment
+  authors:
+  - Reiner Hoppe
+  - Joanna Achinger-Kawecka
+  - Stefan Winter
+  - Peter Fritz
+  - Wing-Yee Lo
+  - Werner Schroth
+  - Hiltrud Brauch
+  publisher: European Journal of Cancer
+  date: '2013-11-01'
+  link: https://doi.org/f2ndw2
+  orcid: 0000-0002-2902-9371
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1371/journal.pcbi.1007128
@@ -92,9 +346,6 @@
   publisher: PLOS Computational Biology
   date: '2020-12-04'
   link: https://doi.org/c7np
-  orcid: 0000-0002-4655-3773
-  plugin: sources.py
-  file: sources.yaml
   type: paper
   description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
     do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -111,21 +362,8 @@
   - open science
   - collaboration
   repo: greenelab/meta-review
-- id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
-  authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2019-03-11'
-  link: https://doi.org/gfxjxf
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1016/j.csbj.2020.05.017
   title: Constructing knowledge graphs and their biomedical applications
   authors:
