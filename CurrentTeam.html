@@ -30,6 +30,40 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <!-- Small tweak: keep team photos compact and consistent -->
+    <style>
+        .team-photo {
+            width: 100%;
+            max-width: 220px;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .team-member-row {
+            display: flex;
+            align-items: flex-start;
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .team-member-photo {
+            flex: 0 0 220px;
+        }
+
+        .team-member-text {
+            flex: 1 1 auto;
+        }
+
+        @media (max-width: 767px) {
+            .team-member-row {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -37,141 +71,253 @@
 
 
 
-  <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-    <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
-</div>
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
 
-<div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
-        <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Team</a>
-                    <div class="dropdown-menu bg-light m-0">
-                        <a href="AboutJo.html" class="dropdown-item">About Jo</a>
-                        <a href="CurrentTeam.html" class="dropdown-item">Current Team</a>
-                        <a href="JoinUs.html" class="dropdown-item">Join Us</a>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
+            <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Team</a>
+                        <div class="dropdown-menu bg-light m-0">
+                            <a href="AboutJo.html" class="dropdown-item">About Jo</a>
+                            <a href="CurrentTeam.html" class="dropdown-item">Current Team</a>
+                            <a href="JoinUs.html" class="dropdown-item">Join Us</a>
+                        </div>
+                    </div>
+                    <a href="Projects.html" class="nav-item nav-link">Projects</a>
+                    <a href="Publications.html" class="nav-item nav-link">Publications</a>
+                    <a href="Funding.html" class="nav-item nav-link">Funding</a>
+                    <a href="Contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <div class="ms-auto d-none d-lg-flex">
+                    <a class="btn btn-sm-square btn-primary ms-2" href="https://x.com/aachinger"><i
+                            class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container-fluid py-2 d-none d-lg-flex">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <div>
+                    <small class="me-3"><i class="f"></i></small>
+                    <small class="me-3"><i class=""></i></small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid page-header py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container text-center py-5 mt-4">
+            <h1 class="display-2 text-white mb-3 animated slideInDown">3D Chromatin Organisation Lab</h1>
+        </div>
+    </div>
+
+    <div class="container pt-5">
+        <div class="text-left mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 100%;">
+            <h1 class="display-6 mb-3">Current Lab Members</h1>
+            <div class="container-fluid container-team py-5">
+                <div class="container pb-5">
+
+                    <div class="team-member-row wow fadeIn" data-wow-delay="0.3s">
+                        <div class="team-member-photo">
+                            <img class="team-photo" src="geri.jpg" alt="Geri Laven-Law">
+                        </div>
+                        <div class="team-member-text">
+                            <p class="mb-2"><strong>Geri Laven-Law</strong>, Research Manager</p>
+                            <p class="mb-0">Geri is a molecular biologist with an interest in cancer epigenetics,
+                                and is excited to explore using cutting-edge methods to study the role of 3D
+                                chromatin alterations in cancer development, progression, and treatment resistance.
+                                Geri has previously worked on pre-clinical projects involving hormone regulation in
+                                breast and prostate cancer with Dame Roma Mitchell Cancer Research Labs under Prof
+                                Wayne Tilley and A/Prof Theresa Hickey, and more recently, has taken on a more
+                                clinical role looking at non-invasive biomarkers for colorectal cancer and
+                                pre-cancerous lesions with A/Prof Erin Symonds.</p>
+                        </div>
+                    </div>					
+					
+                  <div class="team-member-row wow fadeIn" data-wow-delay="0.3s">
+                        <div class="team-member-photo">
+                            <img class="team-photo" src="fiozh1.jpg" alt="Dr Fiona Zhou">
+                        </div>
+                        <div class="team-member-text">
+                            <p class="mb-2"><strong>Dr Fiona Zhou</strong>, Senior Postdoctoral Fellow</p>
+                            <p class="mb-0">Fiona Zhou obtained her PhD at University of Adelaide studying the
+                                inflammatory response to growth plate injury which results in bony formation. After
+                                completion of her PhD, she has conduct post-doctoral research in cartilage biology in
+                                the US followed by liver injury and neuroscience back in Adelaide. During the past 3
+                                years Fiona joined the Connie Johnson breast cancer research lab at the Garvan
+                                Institute in Sydney and led the research in testing therapies to combat drug
+                                resistant Estrogen Receptor-positive breast cancer using in vitro and in vivo models.
+                                In 2025 Fiona has joined Dr Joanna Achinger-Kawecka in the 3D Chromatin Organisation
+                                Laboratory to continue her interests in cancer research using in vitro and in vivo
+                                cancer models of drug resistance to study what roles 3D chromatin alterations may
+                                play and identify potential therapeutic targets to test.</p>
+                        </div>
+                    </div>
+
+					      <div class="team-member-row wow fadeIn" data-wow-delay="0.3s">
+                        <div class="team-member-photo">
+                            <img class="team-photo" src="mark.jpg" alt="Mark Von Der Hoek">
+                        </div>
+                        <div class="team-member-text">
+                            <p class="mb-2"><strong>Mark Van Der Hoek </strong>, Research Coordinator</p>
+                            <p class="mb-0">  Originally trained as a chemist, Mark has a long career in genomics service provision having helped establish the Adelaide Microarray Centre in the early 2000’s, the ACRF Cancer Genomics Facility at SA Pathology, and later the SAHMRI Genomics core facility.  A long-term executive member of AGTA, he has extensive experience in establishing cutting-edge platforms and protocols including for single cell analysis and next generation sequencing.  He is excited to apply his skillset to help develop and establish new protocols in the laboratory for the study of cancer treatment resistance.</p>
+                        </div>
+                    </div>
+
+                  <div class="team-member-row wow fadeIn" data-wow-delay="0.3s">
+                        <div class="team-member-photo">
+                            <img class="team-photo" src="dan.jpg" alt="Dr Daniel Thomson">
+                        </div>
+                        <div class="team-member-text">
+                            <p class="mb-2"><strong>Dr Daniel Thomson</strong>, Senior Postdoctoral Fellow
+                                (Bioinformatics)</p>
+                            <p class="mb-2">Daniel is an experienced computational biologist, passionate about
+                                applying genomic technology for cancer research and new diagnostic applications. He
+                                has a PhD from Adelaide University and has held postdoctoral positions at the Garvan
+                                Institute, SA Pathology and Flinders University. Daniel was the primary
+                                bioinformatician for two NATA applications for diagnostic genomics applications
+                                towards cancer diagnostics and polygenic risk testing; while working as the clinical
+                                bioinformatics lead at Monash Pathology and at biotech start-up SeonixBio,
+                                respectively.</p>
+                            <p class="mb-2">With experience spanning cancer research, molecular pathology and
+                                start-up biotech, he has a diverse expertise in genomics and bioinformatics, with key
+                                research interests including; clinical genomics, transcriptomics, non-coding RNA,
+                                mobile DNA, personalised medicine, and cancer biology.</p>
+                            <p class="mb-0">In his role as senior postdoctoral fellow (Bioinformatics) in the 3D
+                                Chromatin Organisation Lab, SAIGENCI, Daniel will be tackling questions around genome
+                                structure, function, and dysregulation in cancer, through the application and
+                                development of new genomics technologies and multi-omic analysis approaches.</p>
+                        </div>
+                    </div>
+
+                  <div class="team-member-row wow fadeIn" data-wow-delay="0.3s">
+                        <div class="team-member-photo">
+                            <img class="team-photo" src="dayna.jpg" alt="Dr Dayna Challis">
+                        </div>
+                        <div class="team-member-text">
+                            <p class="mb-2"><strong>Dr Dayna Challis</strong>, Postdoctoral Fellow</p>
+                            <p class="mb-2">Dayna completed her PhD in the Taberlay Lab at the University of
+                                Tasmania in 2024. Here, she profiled the molecular response of medulloblastoma cells
+                                to radiotherapy using multi-omics techniques (transcriptomics, proteomics, 3D
+                                genomics). During her PhD, she developed a particular interest in the 3D genome and
+                                how changes in 3D chromatin organisation may facilitate treatment resistance.</p>
+                            <p class="mb-0">In 2025, Dayna commenced postdoctoral training in the 3D Chromatin
+                                Organisation Laboratory, headed by Dr Joanna Achinger-Kawecka, at the South
+                                Australian ImmunoGENomics Cancer Institute (SAiGENCI). Her current research focusses
+                                on understanding the role of 3D chromatin alterations in driving the development,
+                                progression, and treatment resistance of hormone-dependent cancers using a range of
+                                cutting-edge methods (multi-omics, single-cell, genome editing, and various
+                                pre-clinical model systems).</p>
+                        </div>
+                    </div>
+					
+ <div class="team-member-row wow fadeIn" data-wow-delay="0.3s">
+                        <div class="team-member-photo">
+                            <img class="team-photo" src="cathal.jpg" alt="Cathal King">
+                        </div>
+                        <div class="team-member-text">
+                            <p class="mb-2"><strong>Cathal King </strong>, Graduate Researcher</p>
+                            <p class="mb-0">PhD candidate in bioinformatics - specializing in data analysis and method development spatial omics. Proficient in R, Python, and Linux HPC environments. Have a keen interest in the biotech landscape in terms of medical technology, education associated products.</p>
+                        </div>
+                    </div>
+					
+					 <div class="team-member-row wow fadeIn" data-wow-delay="0.3s">
+                        <div class="team-member-photo">
+                            <img class="team-photo" src="Allen" alt="Allen">
+                        </div>
+                        <div class="team-member-text">
+                            <p class="mb-2"><strong>Allen Ramsey </strong>, Graduate Researcher</p>
+                            <p class="mb-0"></p>
+                        </div>
+                    </div>
+					
+<div class="team-member-row wow fadeIn" data-wow-delay="0.3s">
+                        <div class="team-member-photo">
+                            <img class="team-photo" src="" alt="Zexin">
+                        </div>
+                        <div class="team-member-text">
+                            <p class="mb-2"><strong>Zexin Wang </strong>, Master of Science Candidate</p>
+                            <p class="mb-0"></p>
+                        </div>
+                    </div>
+
+                  <div class="team-member-row wow fadeIn" data-wow-delay="0.3s">
+                        <div class="team-member-photo">
+                            <img class="team-photo" src="elypar.jpg" alt="Elyssa Campbell">
+                        </div>
+                        <div class="team-member-text">
+                            <p class="mb-0">Elyssa Campbell, Research Assistant and PhD Student @ UNSW Sydney</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid container-service py-5">
+        <div class="container py-5">
+
+            <div class="row justify-content-evenly g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item">
+                        <h5 class="mb-3">About Jo</h5>
+
+                        <a class="btn btn-light px-3" href="AboutJo.html">Read More<i
+                                class="bi bi-chevron-double-right ms-1"></i></a>
                     </div>
                 </div>
-                <a href="Projects.html" class="nav-item nav-link">Projects</a>
-                <a href="Publications.html" class="nav-item nav-link">Publications</a>
-                <a href="Funding.html" class="nav-item nav-link">Funding</a>
-                <a href="Contact.html" class="nav-item nav-link">Contact</a>
-            </div>
-            <div class="ms-auto d-none d-lg-flex">
-                <a class="btn btn-sm-square btn-primary ms-2" href="https://x.com/aachinger"><i class="fab fa-twitter"></i></a>
-            </div>
-        </div>
-    </nav>
-</div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item">
+                        <h5 class="mb-3">Current Team</h5>
 
-<div class="container-fluid py-2 d-none d-lg-flex">
-    <div class="container">
-        <div class="d-flex justify-content-between">
-            <div>
-                <small class="me-3"><i class="f"></i></small>
-                <small class="me-3"><i class=""></i></small>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="container-fluid page-header py-5 wow fadeIn" data-wow-delay="0.1s">
-    <div class="container text-center py-5 mt-4">
-        <h1 class="display-2 text-white mb-3 animated slideInDown">3D Chromatin Organisation Lab</h1>
-    </div>
-</div>
-
-<div class="container pt-5">
-    <div class="text-left mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 100%;">
-        <h1 class="display-6 mb-3">Current Lab Members</h1>
-<div class="container-fluid container-team py-5">
-        <div class="container pb-5">
-            <div class="row g-5 align-items-center mb-5">
-
-        <div class="col-md-6 wow fadeIn" data-wow-delay="0.3s"> <img class="w-100 img-fluid" src="fiozh1.jpg" alt=""></div>
-        <p class="mb-5"><strong>Dr Fiona Zhou</strong>, Senior Postdoctoral Fellow</p>
-        <p class="mb-5">Fiona Zhou obtained her PhD at University of Adelaide studying the inflammatory response to growth plate injury which results in bony formation. After completion of her PhD, she has conduct post-doctoral research in cartilage biology in the US followed by liver injury and neuroscience back in Adelaide. During the past 3 years Fiona joined the Connie Johnson breast cancer research lab at the Garvan Institute in Sydney and led the research in testing therapies to combat drug resistant Estrogen Receptor-positive breast cancer using in vitro and in vivo models. In 2025 Fiona has joined Dr Joanna Achinger-Kawecka in the 3D Chromatin Organisation Laboratory to continue her interests in cancer research using in vitro and in vivo cancer models of drug resistance to study what roles 3D chromatin alterations may play and identify potential therapeutic targets to test.&nbsp;</p>
-<p class="mb-5">&nbsp;</p>
-<div class="col-md-6 wow fadeIn" data-wow-delay="0.3s"> <img class="w-100 img-fluid" src="geri.jpg" alt=""></div>
-<p class="mb-5"><strong>Geri Laven-Law</strong>, Research Manager</p>
-<p class="mb-5">Geri is a molecular biologist with an interest in cancer epigenetics, and is excited to explore using cutting-edge methods to study the role of 3D chromatin alterations in cancer development, progression, and treatment resistance. Geri has previously worked on pre-clinical projects involving hormone regulation in breast and prostate cancer with Dame Roma Mitchell Cancer Research Labs under Prof Wayne Tilley and A/Prof Theresa Hickey, and more recently, has taken on a more clinical role looking at non-invasive biomarkers for colorectal cancer and pre-cancerous lesions with A/Prof Erin Symonds.&nbsp;<br>
-<p class="mb-5">&nbsp;</p>
-<div class="col-md-6 wow fadeIn" data-wow-delay="0.3s"> <img class="w-100 img-fluid" src="dan.jpg" alt=""></div>
-<p class="mb-5"><strong>Dr Daniel Thomson</strong>, Senior Postdoctoral Fellow (Bioinformatics)</p>
-<p class="mb-5">Daniel is an experienced computational biologist, passionate about applying genomic technology for cancer research and new diagnostic applications. He has a PhD from Adelaide University and has held postdoctoral positions at the Garvan Institute, SA Pathology and Flinders University. Daniel was the primary bioinformatician for two NATA applications for diagnostic genomics applications towards cancer diagnostics and polygenic risk testing; while working as the clinical bioinformatics lead at Monash Pathology and at biotech start-up SeonixBio, respectively.
-
-With experience spanning cancer research, molecular pathology and start-up biotech, he has a diverse expertise in genomics and bioinformatics, with key research interests including; clinical genomics, transcriptomics, non-coding RNA, mobile DNA, personalised medicine, and cancer biology.
-
-In his role as senior postdoctoral fellow (Bioinformatics) in the 3D Chromatin Organisation Lab, SAIGENCI, Daniel will be tackling questions around genome structure, function, and dysregulation in cancer, through the application and development of new genomics technologies and multi-omic analysis approaches.&nbsp;<br>
-<p class="mb-5">&nbsp;</p>	
-<div class="col-md-6 wow fadeIn" data-wow-delay="0.3s"> <img class="w-100 img-fluid" src="dayna.jpg" alt=""></div>
-<p class="mb-5"><strong>Dr Dayna Challis</strong>, Postdoctoral Fellow </p>
-<p class="mb-5">Dayna completed her PhD in the Taberlay Lab at the University of Tasmania in 2024. Here, she profiled the molecular response of medulloblastoma cells to radiotherapy using multi-omics techniques (transcriptomics, proteomics, 3D genomics). During her PhD, she developed a particular interest in the 3D genome and how changes in 3D chromatin organisation may facilitate treatment resistance. 
-
-In 2025, Dayna commenced postdoctoral training in the 3D Chromatin Organisation Laboratory, headed by Dr Joanna Achinger-Kawecka, at the South Australian ImmunoGENomics Cancer Institute (SAiGENCI). Her current research focusses on understanding the role of 3D chromatin alterations in driving the development, progression, and treatment resistance of hormone-dependent cancers using a range of cutting-edge methods (multi-omics, single-cell, genome editing, and various pre-clinical model systems).&nbsp;<br>
-<p class="mb-5">&nbsp;</p>	
- <div class="col-md-6 wow fadeIn" data-wow-delay="0.3s"> <img class="w-100 img-fluid" src="elypar.jpg" alt=""> </div>
- <p class="mb-5">Elyssa Campbell, Research Assistant and PhD Student @ UNSW Sydney</p>
-</p>
-<p class="mb-5"></p>
-      <div class="d-flex">
-    </div>
-</div>
-</div>
-</div>
-</div>	
-
-<div class="container-fluid container-service py-5">
-    <div class="container py-5">
-       
-        <div class="row justify-content-evenly g-4">
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="service-item">
-                    <h5 class="mb-3">About Jo</h5>
-                    
-                    <a class="btn btn-light px-3" href="AboutJo.html">Read More<i class="bi bi-chevron-double-right ms-1"></i></a>
+                        <a class="btn btn-light px-3" href="CurrentTeam.html">Read More<i
+                                class="bi bi-chevron-double-right ms-1"></i></a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="service-item">
-                    <h5 class="mb-3">Current Team</h5>
-                   
-                    <a class="btn btn-light px-3" href="CurrentTeam.html">Read More<i class="bi bi-chevron-double-right ms-1"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="service-item">
-                    <h5 class="mb-3">Join Us</h5>
-                    
-                    <a class="btn btn-light px-3" href="JoinUs.html">Read More<i class="bi bi-chevron-double-right ms-1"></i></a>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item">
+                        <h5 class="mb-3">Join Us</h5>
+
+                        <a class="btn btn-light px-3" href="JoinUs.html">Read More<i
+                                class="bi bi-chevron-double-right ms-1"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-<div class="container-fluid copyright bg-dark text-white-50 py-4">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 text-center text-md-start">
-                <p class="mb-0">&copy; <a href="#">achingerlab.com</a>. All Rights Reserved.</p>
-            </div>
-            <div class="col-md-6 text-center text-md-end">
-                <p class="mb-0">Designed by <a href="https://htmlcodex.com">HTML Codex</a><br>Distributed by <a href="https://themewagon.com">ThemeWagon</a></p>
+    <div class="container-fluid copyright bg-dark text-white-50 py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; <a href="#">achingerlab.com</a>. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">Designed by <a href="https://htmlcodex.com">HTML Codex</a><br>Distributed by <a
+                            href="https://themewagon.com">ThemeWagon</a></p>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->
